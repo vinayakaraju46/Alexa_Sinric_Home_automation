@@ -34,7 +34,7 @@ bool isConnected = false;
 // deviceId is the ID assgined to your smart-home-device in sinric.com dashboard. Copy it from dashboard and paste it here
 
 void turnOn(String deviceId) {
-  if (deviceId == "5d7121cb26e46b6061db7a1e") // Device ID of first device
+  if (deviceId == "XXXXXXXXXXXXXX") // Device ID of first device
   {  
     Serial.print("Turn on device id: ");
     Serial.println(deviceId);
@@ -52,7 +52,7 @@ void turnOn(String deviceId) {
 }
 
 void turnOff(String deviceId) {
-   if (deviceId == "5d7121cb26e46b6061db7a1e") // Device ID of first device
+   if (deviceId == "XXXXXXXXXXXXXXXXXx") // Device ID of first device
    {  
      Serial.print("Turn off Device ID: ");
      Serial.println(deviceId);
